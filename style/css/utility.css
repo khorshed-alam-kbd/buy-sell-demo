@@ -1,0 +1,158 @@
+.index-top-block {
+    padding: 0 25px
+}
+
+.index-title {
+    color: #c1c1c1;
+    font-size: 24px;
+    margin: 32px 0 16px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.grid-cont {
+    display: grid
+}
+
+.ai-fs {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start
+}
+
+.ai-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.jc-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.jc-c {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.jc-fe {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.flex-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.inflex-cont {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.fd-c {
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+.pos-rel {
+    position: relative
+}
+
+.list .curr-sign {
+    color: inherit;
+    margin: 0 2px 0 0
+}
+
+.list .show-title {
+    cursor: help;
+    vertical-align: middle
+}
+
+.list .show-title img {
+    vertical-align: middle
+}
+
+.hide {
+    display: none !important
+}
+
+.btn-red {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #db3f1e;
+    background-image: -o-linear-gradient(257deg, #db3f1e, #f17d13);
+    background-image: linear-gradient(-167deg, #db3f1e, #f17d13);
+    border: 0;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 0 0 8px rgba(222, 71, 23, .2);
+    box-shadow: 0 0 0 8px rgba(222, 71, 23, .2);
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    line-height: 1;
+    min-width: 103px;
+    outline: 0;
+    padding: 0 15px;
+    text-align: center;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+.btn-red:hover {
+    background-image: none
+}
+
+.btn-red:active {
+    background-image: -o-linear-gradient(283deg, #db3f1e, #f17d13);
+    background-image: linear-gradient(167deg, #db3f1e, #f17d13)
+}
+
+a.btn-red {
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 0 20px
+}
+
+a.btn-red:hover {
+    color: #fff
+}
+
+span.btn-red {
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 0 11px
+}
+
+.btn-red[disabled] {
+    background-image: -o-linear-gradient(257deg, #db3f1e, #f17d13);
+    background-image: linear-gradient(-167deg, #db3f1e, #f17d13);
+    cursor: not-allowed
+}
