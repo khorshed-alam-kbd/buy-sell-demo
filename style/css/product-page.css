@@ -2,16 +2,16 @@
     grid-template-rows: -webkit-min-content -webkit-min-content 1fr;
     grid-template-rows: min-content min-content 1fr;
     grid-template-areas: "pr-description sell-content" "feedbacks sell-content" "similar-pr sell-content";
-    /* gap: 0 22px; */
-    /* padding: 50px 0 45px 45px; */
+    gap: 0 22px;
+    padding: 50px 0 45px 45px;
 }
 
-.product-wrap {
+/* .product-wrap {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0 22px;
     padding: 50px 0 45px 45px;
-}
+} */
 
 .pr-info-block {
     background-color: #fff;
@@ -137,10 +137,10 @@
     position: relative
 }
 
-.sell-content {
+/* .sell-content {
     border-left: 1px solid #d4d4d4;
     grid-area: sell-content
-}
+} */
 
 .sell-content .pr-price-wrap {
     max-width: 530px;
@@ -254,10 +254,4 @@
     font-size: 32px;
     margin: 0 0 15px;
     text-align: left
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
 }

@@ -17,6 +17,14 @@
 }
 
 @media only screen and (max-width:1280px) {
+    .product-wrap {
+        grid-template-areas: "pr-description sell-content" "feedbacks sell-content" "similar-pr similar-pr"
+    }
+
+    .product-wrap .similar-products {
+        margin: 50px 0 0
+    }
+
     .product-search-block {
         margin-right: 24px
     }
@@ -64,6 +72,12 @@
 }
 
 @media only screen and (max-width:1040px) {
+    .product-wrap {
+        grid-template-areas: "pr-description" "sell-content" "feedbacks" "similar-pr";
+        gap: 0;
+        padding: 15px 25px 45px
+    }
+
     .welcome-slide {
         background-position: top right -87px, bottom left, bottom center
     }
@@ -91,6 +105,12 @@
 }
 
 @media only screen and (max-width:1024px) {
+    .product-wrap {
+        grid-template-areas: "pr-description" "sell-content" "feedbacks" "similar-pr";
+        gap: 0;
+        padding: 15px 25px 45px
+    }
+
     .top-bar {
         background-color: transparent;
         border-bottom: 0;
@@ -251,6 +271,22 @@
 }
 
 @media only screen and (max-width:768px) {
+    .pr-info-block {
+        grid-template-areas: "pr-title pr-title" "pr-image pr-descr";
+        grid-template-columns: 140px auto;
+        gap: 10px
+    }
+
+    .view-product-image {
+        height: 140px;
+        width: 140px
+    }
+
+    .view-product-title {
+        float: none;
+
+    }
+
     .news-block .flex-cont {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -582,6 +618,7 @@
 }
 
 @media only screen and (max-width:530px) {
+
     .products-menu .title {
         min-width: auto
     }
@@ -722,6 +759,15 @@
 }
 
 @media only screen and (max-width:400px) {
+    .pr-info-block {
+        grid-template-areas: "pr-image pr-descr";
+        gap: 10px
+    }
+
+    .product-wrap {
+        grid-template-areas: "pr-wr-title" "pr-description" "sell-content" "feedbacks" "similar-pr"
+    }
+
     .lang-block {
         right: 0
     }
@@ -813,6 +859,18 @@
 }
 
 @media only screen and (max-width:360px) {
+
+
+    .pr-info-block {
+        grid-template-columns: auto;
+        padding: 25px 10px
+    }
+
+    .view-product-image {
+        height: 70px;
+        width: 70px
+    }
+
     .pr-row .pr-bonus {
         -webkit-box-align: end;
         -ms-flex-align: end;
