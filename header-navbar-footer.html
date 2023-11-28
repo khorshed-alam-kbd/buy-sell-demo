@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/css/utility.css">
+    <link rel="stylesheet" href="/style/css/header.css">
+    <link rel="stylesheet" href="/style/css/footer.css">
+    <link rel="stylesheet" href="/style/css/responsive.css">
+    <title>Heder Navber Footer</title>
+</head>
+
+<body class="lang-en">
+    <header class="top-bar">
+        <div class="center flex-cont ai-c">
+            <div class="main-logo">
+                <a href="index.html"><img src="./assets/images/DTT-logo.png" alt="BuySellVouchers" width="182"
+                        height="56" /></a>
+            </div>
+            <div class="flex-cont ai-c header-settings has-curr-dropdown">
+                <div class="product-search-block">
+                    <form id="topProductSearchForm" class="product-search-form form" method="get" action="">
+                        <div class="interactive-row">
+                            <label for="topProductSearch">What are you looking for? Just type here</label>
+                            <input id="topProductSearch" type="text" name="S">
+                        </div>
+                        <button id="topProductSearchBtn" type="submit" value="Search" class="top-product-search-btn"
+                            aria-label="Search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.01 18">
+                                <path
+                                    d="M17.57,15.45,12.9,10.78a7,7,0,1,0-2.12,2.12l4.67,4.67a1.5,1.5,0,0,0,2.13-2.11ZM2,7a5,5,0,1,1,5,5A5,5,0,0,1,2,7Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <!-- product-search-block -->
+                <div class="link account dropdown-box-cont">
+                    <div class="acc-btn"><a href="" data-test-id="header_login_link">Log
+                            In</a> / <a href="" data-test-id="header_signup_link">Sign Up</a></div>
+                </div>
+                <div class="inflex-cont ai-c dropdown-box-cont lang-block">
+                    <div class="lang-btn dropdown-box-btn lang-selected flex-cont ai-c"
+                        data-test-id="header_menu-lang-btn"><span class="flex-cont ai-c"><span
+                                class="flex-cont ai-c lang-name en">en</span></span></div>
+                    <ul class="in-lang-sec dropdown-box">
+                        <li><a class="flex-cont ai-c en" href="index.html"><span class="lang-name">English</span></a>
+                        </li>
+                        <li><a class="flex-cont ai-c ru" href="ru/index.html"><span class="lang-name">Русский</span></a>
+                        </li>
+                        <li><a class="flex-cont ai-c de" href="de/index.html"><span class="lang-name">Deutsch</span></a>
+                        </li>
+                        <li><a class="flex-cont ai-c zh" href="zh/index.html"><span class="lang-name">中文</span></a></li>
+                        <li><a class="flex-cont ai-c es" href="es/index.html"><span class="lang-name">Español</span></a>
+                        </li>
+                        <li><a class="flex-cont ai-c fr" href="fr/index.html"><span
+                                    class="lang-name">Français</span></a></li>
+                        <li><a class="flex-cont ai-c ar" href="ar/index.html"><span class="lang-name">اللغة
+                                    العربية</span></a></li>
+                    </ul>
+                </div>
+
+                <div id="currenciesBlock" class="inflex-cont ai-c curr-bl dropdown-box-cont">
+                    <div id="currenciesBtn" class="curr-btn dropdown-box-btn">
+                        USD </div>
+                    <ul class="dropdown-box">
+                        <li id="curr_USD" class=" hide"><span class="change-curr" data-value="USD">USD</span></li>
+                        <li id="curr_EUR" class=""><span class="change-curr" data-value="EUR">EUR</span></li>
+                        <li id="curr_GBP" class=""><span class="change-curr" data-value="GBP">GBP</span></li>
+                        <li id="curr_RUB" class=""><span class="change-curr" data-value="RUB">RUB</span></li>
+                        <li id="curr_PLN" class=""><span class="change-curr" data-value="PLN">PLN</span></li>
+                        <li id="curr_CZK" class=""><span class="change-curr" data-value="CZK">CZK</span></li>
+                        <li id="curr_RON" class=""><span class="change-curr" data-value="RON">RON</span></li>
+                        <li id="curr_CHF" class=""><span class="change-curr" data-value="CHF">CHF</span></li>
+                        <li id="curr_SAR" class=""><span class="change-curr" data-value="SAR">SAR</span></li>
+                        <li id="curr_AED" class=""><span class="change-curr" data-value="AED">AED</span></li>
+                        <li id="curr_QAR" class=""><span class="change-curr" data-value="QAR">QAR</span></li>
+                        <li id="curr_CAD" class=""><span class="change-curr" data-value="CAD">CAD</span></li>
+                        <li id="curr_SEK" class=""><span class="change-curr" data-value="SEK">SEK</span></li>
+                        <li id="curr_INR" class=""><span class="change-curr" data-value="INR">INR</span></li>
+                        <li id="curr_HKD" class=""><span class="change-curr" data-value="HKD">HKD</span></li>
+                        <li id="curr_BRL" class=""><span class="change-curr" data-value="BRL">BRL</span></li>
+                        <li id="curr_TRY" class=""><span class="change-curr" data-value="TRY">TRY</span></li>
+                        <li id="curr_AUD" class=""><span class="change-curr" data-value="AUD">AUD</span></li>
+                        <li id="curr_SGD" class=""><span class="change-curr" data-value="SGD">SGD</span></li>
+                        <li id="curr_NZD" class=""><span class="change-curr" data-value="NZD">NZD</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- top-bar -->
+    <div class="pr-menu-wrap">
+        <nav class="products-menu">
+            <div class="title" id="pr_menu_btn">Products</div>
+            <div class="products-menu-mob">
+                <div class="block" data-item="142" data-count="4228">
+                    <div id="gift_cards" class="flex-cont ai-c jc-sb product-dropdown">
+                        <div class="type">
+                            <a>Gift cards</a>
+                            <span class="count">[<span class="count-ps">4228</span>/4228]</span>
+                        </div>
+                        <span class="dropdown-arrow">▲</span>
+                    </div>
+                    <div class="products-sub">
+                        <div class="products-sub-menu">
+                            <span class="close-alpha">&#215;</span>
+                            <div class="items"></div>
+                            <div class="show-all-items">
+                                <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                            </div>
+                            <div class="items-0 hide"></div>
+                        </div>
+                    </div>
+                    <!-- products-sub -->
+                </div>
+                <div class="block" data-item="135" data-count="2068">
+                    <div id="games" class="flex-cont ai-c jc-sb product-dropdown">
+                        <div class="type">
+                            <a href="" onclick="return false;">Games</a>
+                            <span class="count">[<span class="count-ps">2068</span>/2068]</span>
+                        </div>
+                        <span class="dropdown-arrow">▲</span>
+                    </div>
+                    <div class="products-sub">
+                        <div class="products-sub-menu">
+                            <span class="close-alpha">&#215;</span>
+                            <div class="items"></div>
+                            <div class="show-all-items">
+                                <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                            </div>
+                            <div class="items-0 hide"></div>
+                        </div>
+                    </div><!-- products-sub -->
+                </div>
+                <div class="block" data-item="152" data-count="79">
+                    <div id="voip" class="flex-cont ai-c jc-sb product-dropdown">
+                        <div class="type">
+                            <a href="" onclick="return false;">VoIP</a>
+                            <span class="count">[<span class="count-ps">79</span>/79]</span>
+                        </div>
+                        <span class="dropdown-arrow">▲</span>
+                    </div>
+                    <div class="products-sub">
+                        <div class="products-sub-menu">
+                            <span class="close-alpha">&#215;</span>
+                            <div class="items"></div>
+                            <div class="show-all-items">
+                                <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                            </div>
+                            <div class="items-0 hide"></div>
+                        </div>
+                    </div><!-- products-sub -->
+                </div>
+                <div class="more-products-menu-block block">
+                    <div id="more_products_menu" class="flex-cont ai-c jc-sb more-product-dropdown">
+                        <div class="type">
+                            <span>More</span>
+                        </div>
+                        <span class="dropdown-arrow">▲</span>
+                    </div>
+                    <div class="more-products-wrap">
+                        <div class="block" data-item="163" data-count="118">
+                            <div id="prepaid_vouchers" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Prepaid Vouchers</a>
+                                    <span class="count">[<span class="count-ps">118</span>/118]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="349" data-count="375">
+                            <div id="software" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Software</a>
+                                    <span class="count">[<span class="count-ps">375</span>/375]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="139" data-count="26">
+                            <div id="download_file_hosting_services" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Download / File Hosting Services</a>
+                                    <span class="count">[<span class="count-ps">26</span>/26]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="360" data-count="128">
+                            <div id="restaurants" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Restaurants</a>
+                                    <span class="count">[<span class="count-ps">128</span>/128]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="141" data-count="36">
+                            <div id="mobile_communications" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Mobile communications</a>
+                                    <span class="count">[<span class="count-ps">36</span>/36]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="352" data-count="42">
+                            <div id="ebooks" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Ebooks</a>
+                                    <span class="count">[<span class="count-ps">42</span>/42]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                        <div class="block" data-item="165" data-count="692">
+                            <div id="other" class="flex-cont ai-c jc-sb product-dropdown">
+                                <div class="type">
+                                    <a href="" onclick="return false;">Other</a>
+                                    <span class="count">[<span class="count-ps">692</span>/692]</span>
+                                </div>
+                                <span class="dropdown-arrow">▲</span>
+                            </div>
+                            <div class="products-sub">
+                                <div class="products-sub-menu">
+                                    <span class="close-alpha">&#215;</span>
+                                    <div class="items"></div>
+                                    <div class="show-all-items">
+                                        <button class="showItems0">All <span class="allCtg"></span> categories</button>
+                                    </div>
+                                    <div class="items-0 hide"></div>
+                                </div>
+                            </div><!-- products-sub -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- products-menu -->
+
+    </div>
+
+    <div class="ta-c">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx </div>
+
+    <footer id="page-footer" class="page-footer">
+        <div class="sub flex-cont jc-sb">
+            <div class="flex-cont fd-c ai-fs">
+                <span class="social-icons flex-cont ai-fs fd-c">
+                    <a class="inflex-cont ai-c jc-c tw" href="" rel="noopener noreferrer">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="100 90 200 220" xml:space="preserve">
+                            <style type="text/css">
+                                .i-twt {
+                                    fill: #989898;
+                                }
+                            </style>
+                            <title>Twitter</title>
+                            <g>
+                                <path class="i-twt"
+                                    d="M153.6,301.6c94.3,0,145.9-78.2,145.9-145.9c0-2.2,0-4.4-0.1-6.6c10-7.2,18.7-16.3,25.6-26.6 c-9.2,4.1-19.1,6.8-29.5,8.1c10.6-6.3,18.7-16.4,22.6-28.4c-9.9,5.9-20.9,10.1-32.6,12.4c-9.4-10-22.7-16.2-37.4-16.2 c-28.3,0-51.3,23-51.3,51.3c0,4,0.5,7.9,1.3,11.7c-42.6-2.1-80.4-22.6-105.7-53.6c-4.4,7.6-6.9,16.4-6.9,25.8 c0,17.8,9.1,33.5,22.8,42.7c-8.4-0.3-16.3-2.6-23.2-6.4c0,0.2,0,0.4,0,0.7c0,24.8,17.7,45.6,41.1,50.3c-4.3,1.2-8.8,1.8-13.5,1.8 c-3.3,0-6.5-0.3-9.6-0.9c6.5,20.4,25.5,35.2,47.9,35.6c-17.6,13.8-39.7,22-63.7,22c-4.1,0-8.2-0.2-12.2-0.7 C97.7,293.1,124.7,301.6,153.6,301.6" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="inflex-cont ai-c jc-c fb" href="" rel="noopener noreferrer">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="100 20 136.893 266.895" enable-background="new 0 0 266.893 266.895"
+                            xml:space="preserve">
+                            <title>Facebook</title>
+                            <path id="f" fill="#989898" class="i-fb"
+                                d="M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935 l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585v99.803H182.409z" />
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <div>
+                <div class="page-footer-title">Support</div>
+                <ul>
+                    <li><a href="" data-test-id="footer_link-how-works">How it works</a>
+                    </li>
+                    <li><a href="" data-test-id="footer_link-faq">FAQ</a></li>
+                    <li><a href="" data-test-id="footer_link-help-center">Help Center</a>
+                    </li>
+                    <li><a href="" data-test-id="footer_link-video-tutorial" target="_blank"
+                            rel="noopener noreferrer">Video
+                            Tutorial</a></li>
+                    <li><a href="" data-test-id=" footer_link-sitemap">Sitemap</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="page-footer-title">Legal</div>
+                <ul>
+                    <li><a href="" data-test-id="footer_link-privacy-and-cookies-policy" target="_blank"
+                            rel="noopener">Privacy
+                            & Cookies Policy</a></li>
+                    <li><a href="" data-test-id="footer_link-terms-and-conditions" target="_blank" rel="noopener">Terms
+                            & Conditions</a></li>
+                    <li><a href="" data-test-id="footer_link-aml-policy" target="_blank" rel="noopener">AML Policy</a>
+                    </li>
+                    <li><a href="" data-test-id="footer_link-dispute-center" target="_blank" rel="noopener">Dispute
+                            Center</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="page-footer-title">About</div>
+                <ul>
+                    <li><a href="" data-test-id="footer_link-about-us">About Us</a></li>
+                    <li><a href="" data-test-id="footer_link-work-with-us">Work with us</a>
+                    </li>
+                    <li><a href="" data-test-id="footer_link-sell-cards">Sell gift
+                            cards</a></li>
+                    <li><a href="" data-test-id="footer_link-buy-cards">Buy gift cards</a>
+                    </li>
+                    <li><a href="" data-test-id="footer_link-news">News</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="C f-copyright">
+            <p class="B">&copy; 2023 Buysellvouchers.com All Rights Reserved</p>
+            <p>All product names are trademark of their respective companies</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

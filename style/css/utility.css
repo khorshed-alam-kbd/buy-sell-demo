@@ -1,3 +1,119 @@
+:root {
+    --scrollbarWidth: 16px;
+    --scrollbarBg: #e2e2e2;
+    --scrollbarThumb: #f28112
+}
+
+a,
+body,
+div,
+form,
+h2,
+h3,
+header,
+html,
+img,
+label,
+li,
+nav,
+ol,
+p,
+span,
+strong,
+table,
+tbody,
+td,
+th,
+thead,
+tr,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a,
+button,
+input,
+select,
+textarea {
+    -webkit-tap-highlight-color: transparent
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=text] {
+    background-clip: padding-box
+}
+
+body,
+html {
+    background-color: #f7f7f7;
+    color: #686868;
+    font: 12px 'PT Sans', Tahoma, Verdana, Arial, sans-serif;
+    scrollbar-width: var(--scrollbarWidth);
+    scrollbar-color: var(--scrollbarThumb) var(--scrollbarBg)
+}
+
+body::-webkit-scrollbar {
+    width: var(--scrollbarWidth)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBg)
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbarThumb);
+    border-radius: 7.5px;
+    border: 1px solid var(--scrollbarBg)
+}
+
+a {
+    color: #445efb;
+    text-decoration: underline
+}
+
+.hide {
+    display: none !important
+}
+
+.C {
+    text-align: center
+}
+
+.R {
+    text-align: right
+}
+
+.B {
+    font-weight: 700
+}
+
+.pos-rel {
+    position: relative
+}
+
 .index-top-block {
     padding: 0 25px
 }
@@ -12,6 +128,12 @@
 
 .grid-cont {
     display: grid
+}
+
+.inflex-cont {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
 }
 
 .ai-fs {

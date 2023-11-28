@@ -1,0 +1,104 @@
+/* footer css  */
+
+.page-footer {
+    background-color: #fc8c24;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fd7b12), to(transparent));
+    background-image: -o-linear-gradient(top, #fd7b12, transparent);
+    background-image: linear-gradient(180deg, #fd7b12, transparent)
+}
+
+.page-footer .sub {
+    border-bottom: 1px solid #f7f7f7;
+    margin: 0 auto;
+    max-width: 1130px;
+    padding: 50px 0 30px
+}
+
+.page-footer ul {
+    list-style: none
+}
+
+.page-footer ul li {
+    margin-bottom: 20px
+}
+
+.htmw-btn-footer,
+.page-footer li>a {
+    color: #f7f7f7;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 21px;
+    text-decoration: none;
+    -webkit-transition: -webkit-transform .1s linear;
+    transition: -webkit-transform .1s linear;
+    -o-transition: transform .1s linear;
+    transition: transform .1s linear;
+    transition: transform .1s linear, -webkit-transform .1s linear
+}
+
+li.contact {
+    color: #f7f7f7;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 21px
+}
+
+.page-footer-title {
+    color: #f7f7f7;
+    font-size: 31px;
+    font-weight: 700;
+    margin: 0 0 23px
+}
+
+.social-icons {
+    margin-top: 4px
+}
+
+.social-icons a {
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    vertical-align: middle;
+    width: 30px
+}
+
+.social-icons svg {
+    height: 17px;
+    width: 19px
+}
+
+.social-icons .tw {
+    margin-bottom: 10px
+}
+
+.social-icons .fb svg {
+    height: 21px;
+    width: auto
+}
+
+.social-icons .i-fb,
+.social-icons .i-twt {
+    fill: #fd811a
+}
+
+.trustpilot-footer {
+    margin-left: -30.5px
+}
+
+.f-copyright {
+    color: #f7f7f7;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 40px;
+    padding-bottom: 45px
+}
+
+.f-copyright>.B {
+    margin-right: 14px
+}
