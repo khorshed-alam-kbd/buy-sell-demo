@@ -212,14 +212,6 @@
     gap: 0 62px
 }
 
-.buy-block .buttons {
-    margin-top: 34px
-}
-
-.buy-block-wrap {
-    grid-template-areas: "total-price quan" "pr-info-items pr-info-items";
-    gap: 0 62px
-}
 
 .total.price {
     color: #000;
@@ -254,4 +246,133 @@
     font-size: 32px;
     margin: 0 0 15px;
     text-align: left
+}
+
+/* quantity css  */
+
+.pr-info-items {
+    grid-area: pr-info-items
+}
+
+.pr-price {
+    font-size: 16px;
+    margin-bottom: 10px
+}
+
+.product-page .btn-red {
+    min-width: 100px
+}
+
+.not-available {
+    color: #e61d1d;
+    font-size: 21px;
+    text-transform: uppercase
+}
+
+.quan {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid #eee;
+    border-radius: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #b7b7b7;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 42px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 6px;
+    width: 140px
+}
+
+.pr-price-block .label {
+    display: block;
+    margin-left: 10px
+}
+
+.pr-price-block .quan {
+    height: 52px;
+    margin-top: 0;
+    overflow: hidden;
+    width: 130px
+}
+
+.quan>input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    color: #b7b7b7;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.quan>input::-webkit-inner-spin-button,
+.quan>input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.quan>input[type=number] {
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    -moz-appearance: textfield
+}
+
+.quan>input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.quan-buttons {
+    border-left: 1px solid #e0e0e0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 50px
+}
+
+.quan-btn {
+    border: 0;
+    border-radius: 50%;
+    background: #f4f4f4;
+    color: #d5d5d5;
+    cursor: pointer;
+    font-size: 16px;
+    height: 32px;
+    line-height: 1;
+    margin: 0 3px;
+    outline: 0;
+    padding: 0;
+    width: 32px
+}
+
+.quan-btn:hover {
+    background: #dedede;
+    color: #55524d
+}
+
+.quan-buttons>.quan-btn {
+    border-radius: 0;
+    background-color: #f4f4f4;
+    font-size: 21px;
+    height: 24px;
+    margin: 0;
+    padding-right: 5px;
+    width: 100%
+}
+
+.quan-buttons>.quan-btn+.quan-btn {
+    border-top: 1px solid #e0e0e0
+}
+
+.quan-buttons>.quan-btn:hover {
+    background-color: #f4f4f4;
+    color: #238dff
 }
