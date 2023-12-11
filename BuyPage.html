@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Page</title>
+    <link rel="stylesheet" href="/style/css/utility.css">
+    <link rel="stylesheet" href="/style/css/top-categories.css">
+    <link rel="stylesheet" href="/style/css/promoted-products.css">
+    <link rel="stylesheet" href="/style/css/product-page.css">
+    <link rel="stylesheet" href="/style/css/buy-page.css">
+    <link rel="stylesheet" href="/style/css/responsive.css">
+</head>
+
+<body>
+    <section id="page" class="page-container">
+
+        <div class="main-block">
+            <div class="content">
+                <div class="product-buy-page">
+                    <div class="form">
+                        <form id="buy-form" action="" method="post">
+                            <div class="pr-info-block grid-cont ai-c">
+                                <picture class="buy-product-picture flex-cont">
+                                    <img class="view-product-image flex-shrink-0"
+                                        src="./assets/images/popular-categories/mobile/freefire.png"
+                                        alt="Product image">
+                                </picture>
+                                <div class="pr-basic-info">
+                                    <div class="buy-product-seller-info">
+                                        <span class="B black-text">Seller:</span> <a class="black-text"
+                                            href="">RavinsFL</a>
+                                    </div>
+                                    <h1 class="page-title">FREE FIRE 25 DIAMOND TOP UP</h1>
+                                    <div class="flex-cont ai-c jc-sb lh-1 pr-info-price-cont">
+                                        <div>
+                                            <div class="buy-product-label">Price</div>
+                                            <span class="black-text">5.49 USD</span>
+                                        </div>
+                                        <div class="pr-extras-wrap flex-cont">
+                                            <img class="show-title bonus-icon" src="./assets/icon/bonus-orange.png"
+                                                alt="Bonus"
+                                                title="Bonus for positive feedback buying this product is <strong>0.50</strong>% (0.03 USD). To get the bonus, you must leave positive feedback within 24 hours after purchase.">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product info container -->
+                            <div class="pr-price-wrap">
+                                <div class="buy-block">
+                                    <div class="row">
+                                        <div class="flex-cont jc-sb">
+                                            <div>Quantity</div>
+                                            <span class="black-text">1</span>
+                                        </div>
+                                        <div class="flex-cont jc-sb">
+                                            <div>Price</div>
+                                            <span class="black-text">5.49 USD</span>
+                                        </div>
+                                        <div class="flex-cont jc-sb hide" id="feeContainer">
+                                            <div class="inflex-cont ai-c">
+                                                Fee <div class="commissions-help-cont pos-rel dropdown-box-cont">
+                                                    <span
+                                                        class="commissions-help-sign inflex-cont ai-c jc-c B dropdown-box-btn">?</span>
+                                                    <div class="commissions-help-block dropdown-box" id="forFeeDescr">-
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="black-text" id="forFeeValue">-</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex-cont ai-fe jc-sb B buy-summary-cont">
+                                        <div>Total price:</div>
+                                        <div class="lh-1 black-text summary-data R">
+                                            <span class="B" id="sum_sum">-</span> <span class="B"
+                                                id="sum_curr">&nbsp;</span>
+                                        </div>
+                                    </div>
+                                    <!-- VOUCHER -->
+                                    <!-- If current product has voucher code - show voucher field -->
+                                    <!-- END VOUCHER -->
+                                    <div class="row">
+                                        <div class="">
+                                            <label for="BuyForm_email" class="user-email-label">Enter your valid e-mail
+                                                for product delivery</label>
+                                            <input placeholder="E-mail address" name="BuyForm[email]" id="BuyForm_email"
+                                                type="text" />
+                                        </div>
+                                    </div>
+
+                                    <div id="c_comment_105" class="pr-preview c-comment hide">
+                                        We&#39;re accepting Bitcoin automatically. Product is sent after 3 or 6
+                                        confirmations bitcoin, depending on order amount. </div>
+
+                                    <div class="row buttons C">
+                                        <input id="buyButton" class="btn-red button" disabled="disabled"
+                                            style="opacity: 0.4;" type="submit" name="yt0" value="Buy" /> <span
+                                            id="sbmtLoading" class="hide"><span class="span-loading">
+                                                <span class="spinner">
+                                                    <span class="ball-1"></span>
+                                                    <span class="ball-2"></span>
+                                                    <span class="ball-3"></span>
+                                                    <span class="ball-4"></span>
+                                                    <span class="ball-5"></span>
+                                                    <span class="ball-6"></span>
+                                                    <span class="ball-7"></span>
+                                                    <span class="ball-8"></span>
+                                                </span>
+                                            </span></span>
+                                        <div class="agree-terms-notice">
+                                            By pressing Buy, I agree with <a href="" target="_blank" rel="noopener">User
+                                                Agreement</a> and <a href="" target="_blank" rel="noopener">Privacy
+                                                Policy.</a> </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Product buy container -->
+                            <div class="payments-container">
+                                <div class="choose">Select payment method</div>
+                                <div class="currencies-list-wrapper">
+                                    <div class="currencies-list">
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_trc20">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_216" class="visuallyhidden"
+                                                    value="216" name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/trc20.png" alt="trc20">
+                                                Tether TRC20 (USDT)
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">5.49</span>
+                                                <span>USD</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                                <div class="commission-row">
+                                                    <!-- <span class="B">TRC20 fee:</span> -->
+                                                    <span class="commission-colored">BuySellVouchers fee (min.0.10
+                                                        USD):</span>
+                                                    <span class="commission-value">
+                                                        0.5%
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_216">
+                                                    5.59</span>
+                                                <span class="currency">USD</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">0.1 USD</div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_litecoin">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_99" class="visuallyhidden" value="99"
+                                                    name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/litecoin.png" alt="litecoin">
+                                                Litecoin
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">0.07787</span>
+                                                <span>LTC</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                                <div class="commission-row">
+                                                    <!-- <span class="B">Litecoin fee:</span> -->
+                                                    <span class="commission-colored">BuySellVouchers fee (min.0.10
+                                                        USD):</span>
+                                                    <span class="commission-value">
+                                                        0.5%
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_99">
+                                                    0.07944</span>
+                                                <span class="currency">LTC</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">0.00157 LTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_bitcoin">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_105" class="visuallyhidden"
+                                                    value="105" name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/bitcoin.png" alt="bitcoin">
+                                                Bitcoin
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">0.00016</span>
+                                                <span>BTC</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                                <div class="commission-row">
+                                                    <span class="commission-colored">We&#39;re accepting Bitcoin
+                                                        automatically. Product is sent after 3 or 6 confirmations
+                                                        bitcoin, depending on order amount. fee</span>
+                                                    <span class="commission-value">
+                                                        0.5%
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_105">
+                                                    0.00016</span>
+                                                <span class="currency">BTC</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">0. BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_ethereum">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_188" class="visuallyhidden"
+                                                    value="188" name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/ethereum.png" alt="ethereum">
+                                                Ethereum
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">0.00281</span>
+                                                <span>ETH</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                                <div class="commission-row">
+                                                    <!-- <span class="B">Ethereum fee:</span> -->
+                                                    <span class="commission-colored">BuySellVouchers fee (min.0.10
+                                                        USD):</span>
+                                                    <span class="commission-value">
+                                                        0.5%
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_188">
+                                                    0.00286</span>
+                                                <span class="currency">ETH</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">0.00005 ETH</div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_usdctrc20">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_239" class="visuallyhidden"
+                                                    value="239" name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/usdctrc20.png" alt="usdctrc20">
+                                                USDC via TRC20
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">5.49</span>
+                                                <span>USD</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_239">
+                                                    5.49</span>
+                                                <span class="currency">USD</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">0. USD</div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-cont cl-row jc-c" data-test-id="cl_row_daibep20">
+                                            <div class="hide field flex-cont ai-c">
+                                                <input id="BuyCreditForm_currency_243" class="visuallyhidden"
+                                                    value="243" name="BuyForm[currency]" type="radio" />
+                                            </div>
+
+                                            <div class="flex-cont ai-c cl-logo-name">
+                                                <img src="./assets/icon/payment_icon/daibep20.png" alt="daibep20">
+                                                DAI via BEP20
+                                            </div>
+                                            <div class="sum price hide">
+                                                <span class="val">5.50</span>
+                                                <span>DAI</span>
+                                            </div>
+                                            <div class="sum curr-comm-wrap hide">
+                                            </div>
+                                            <div class="sum curr-total hide">
+                                                <span class="B">Total:</span>
+                                                <span class="total-val" id="pay_243">
+                                                    5.49</span>
+                                                <span class="currency">DAI</span>
+                                            </div>
+                                            <div class="sum comm-total hide">
+                                                <div class="comm-val">-0.01 DAI</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- currencies list -->
+                                <div class="grid-cont cl-msg verifMsg hide">
+                                    <div>
+                                        This payment method, may require extra verification. </div>
+                                </div>
+                                <div class="grid-cont cl-msg paypalLimit hide">
+                                    <div class="B">
+                                        You've reached your Paypal purchase limit.To increase your buy limit <a
+                                            href="">verify here</a>
+                                    </div>
+                                </div>
+                            </div> <!-- Payments container -->
+                        </form>
+                    </div>
+                    <!-- form -->
+                </div>
+            </div>
+        </div>
+        <!-- main-block -->
+    </section>
+
+</body>
+
+</html>
